@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Contact = require("../models/contact");
 var dataPerPage= 10;
-//get -get all events 
+//get -get all contacts
 exports.getContacts=async(req,res,next)=>{
 let page= req.query.page; 
 
